@@ -16,7 +16,7 @@ async def register(user: UserRegister):
     new_user=User(
         full_name=user.full_name,
         email=user.email,
-        phone=user.phone_no,
+        phone_no=user.phone_no,
         password=hashed_password
     )
     

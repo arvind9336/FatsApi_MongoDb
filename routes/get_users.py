@@ -14,7 +14,7 @@ async def get_user(current_user: User=Depends(get_current_user)):
         "id": str(user.id),
         "full_name":user.full_name,
         "email":user.email,
-        "phone":user.phone
+        "phone_no":user.phone_no
     }
      for user in users       
     ]
